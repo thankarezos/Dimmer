@@ -229,11 +229,9 @@ public class Dimmer {
         if (enabled){
             
             for(int i=0;i<displays.length;i++){
-                if(displays[i].isSelected()){
                     if (!(frames[i] == null)){
                         frames[i].setVisible(false);
                     }
-                }
             }
             enabled = false;
         }
